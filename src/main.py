@@ -21,5 +21,4 @@ def main() -> None:
     copy_files_recursive(dir_path_static, dir_path_docs)
     generate_pages_recursive(basepath, dir_path_content, "./template.html", dir_path_docs)
 
-
 main()
